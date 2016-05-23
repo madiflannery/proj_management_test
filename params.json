@@ -1,0 +1,6 @@
+{
+  "name": "overv.io tutorial",
+  "tagline": "Tutorial using example repo used to illustrate git issues and overv.io",
+  "body": "### Overview of overv.io and git issues\r\nOverv.io is a layer that sits on top of Git, allowing for easy management of issues. The idea: for each feature or bug, an issue is created on an appropriate git repo. Each issue can be assigned to a person, and has tags which are used to keep track of what it is (e.g. 'enhancement' or 'bug'), what its status is (e.g. 'in progress', 'in test'), and other miscellaneous things (e.g. 'question', 'duplicate', 'urgent', etc). Each issue can also be associated with a 'milestone', which is just a collection of issues for a particular release. Each milestone can have a date of when it should be completed by. \r\n\r\n### The overv.io interface\r\n\r\n### Flow\r\n\r\n### Labels\r\n\r\n\r\n### Milestones\r\n\r\n### Reporting a new issue or requesting a new feature\r\n\r\n### Hate it?\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
