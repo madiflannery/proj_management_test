@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>overv.io tutorial by madiflannery</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">overv.io tutorial</h1>
-      <h2 class="project-tagline">Tutorial using example repo used to illustrate git issues and overv.io. Written by Madi Flannery, 23/05/16.</h2>
-      <a href="https://github.com/madiflannery/proj_management_test" class="btn">View on GitHub</a>
-      <a href="https://github.com/madiflannery/proj_management_test/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/madiflannery/proj_management_test/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
 
-    <section class="main-content">
-      <h1>
-<a id="note-there-is-a-test-repo-and-overvio-here-feel-free-to-use-this-as-a-playground-for-any-of-the-concepts-mentioned-below" class="anchor" href="#note-there-is-a-test-repo-and-overvio-here-feel-free-to-use-this-as-a-playground-for-any-of-the-concepts-mentioned-below" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note: There is a test repo and overv.io <a href="https://overv.io/madiflannery/proj_management_test/">here</a>. Feel free to use this as a playground for any of the concepts mentioned below.</h1>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="overv.io tutorial : Tutorial using example repo used to illustrate git issues and overv.io. Written by Madi Flannery, 23/05/16.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>overv.io tutorial</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/madiflannery/proj_management_test">View on GitHub</a>
+
+          <h1 id="project_title">overv.io tutorial</h1>
+          <h2 id="project_tagline">Tutorial using example repo used to illustrate git issues and overv.io. Written by Madi Flannery, 23/05/16.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/madiflannery/proj_management_test/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/madiflannery/proj_management_test/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><em>Note: There is a test repo and overv.io <a href="https://overv.io/madiflannery/proj_management_test/">here</a>. Feel free to use this as a playground for any of the concepts mentioned below.</em></p>
 
 <h3>
 <a id="overview-of-overvio-and-git-issues" class="anchor" href="#overview-of-overvio-and-git-issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview of overv.io and git issues</h3>
@@ -47,7 +58,7 @@
 3. Ready for test - as the name suggests, this means the issue is done but needs to be tested. Note that this may not apply to every issue, but is there if it's needed.
 4. Closed - this means the issue is completed and tested.</p>
 
-<p>To change the status of an issue, just click and drag it to the appropriate lane.</p>
+<p>To change the status of an issue, just click and drag it to the appropriate lane (making sure you don't drag it between milestones!).</p>
 
 <h3>
 <a id="labels" class="anchor" href="#labels" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Labels</h3>
@@ -77,25 +88,58 @@ The other commonly used labels will be 'enhancement', which is used to say an is
 <h3>
 <a id="editing-an-existing-issue--adding-comments" class="anchor" href="#editing-an-existing-issue--adding-comments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Editing an existing issue / adding comments</h3>
 
-<h3>
-<a id="creating-a-new-milestone" class="anchor" href="#creating-a-new-milestone" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>creating a new milestone</h3>
+<p>To edit an existing issue, click on it's name. You'll then see something like this:</p>
+
+<p></p>
+
+<p>The main part shows the "history" of the issue - previous labels, who it's been assigned to, and most importantly, the description and comments associated with the issue. 
+The right hand side shows the issue status, the labels currently associated with it, the milestone and who it's currently assigned to. To change any of these, click on the little icon above it. To edit the description, hover just next to the close button, and the edit icon will pop up for you to click on.
+To comment on the issue, just type in the box and click 'comment'. Markdown is supported, and you can also add images and documents.</p>
+
+<p>You can also edit or comment on the issue in git directly</p>
+
+<p></p>
 
 <h3>
 <a id="reporting-a-new-issue-or-requesting-a-new-feature" class="anchor" href="#reporting-a-new-issue-or-requesting-a-new-feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reporting a new issue or requesting a new feature</h3>
+
+<p>To add a new issue, click the + button in the bottom right hand corner. You can also click the + button next to the appropriate milestone name or the backlog. You'll get something that looks like this:</p>
+
+<p></p>
+
+<p>At least, an issue must have a title and be assigned to a milestone or the backlog. Check you're adding it to the right repo. You should label the issue as either an enhancement or bug, and add any additional labels as required (e.g. 'urgent'). Optionally, you can choose who it's assigned to, and add a description. </p>
+
+<p>You can also add a new issue in git, by clicking <a href="https://github.com/madiflannery/proj_management_test/issues">issues</a> in the main repo page, and then 'add new issue'.</p>
+
+<p><em>Note: when adding issues, check that you're adding it to the right repo!</em></p>
+
+<h3>
+<a id="creating-a-new-milestone" class="anchor" href="#creating-a-new-milestone" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating a new milestone</h3>
+
+<p>To create a new milestone, you can either hover over the + button in the bottom right hand corner then click the signpost icon, or click "milestones" in the sidebar, followed the big + button.</p>
+
+<p>You'll get something that looks like this:</p>
+
+<p></p>
+
+<p>Providing a name is mandatory, description and due date are optional.</p>
 
 <h3>
 <a id="hate-it" class="anchor" href="#hate-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hate it?</h3>
 
 <p>This is the best part about using git issues - all the data lives on git, so if you hate overv.io you can use git directly, or another git issues management tool of your choice (e.g. waffle.io) - just ensure it's set up identically to our setup so things don't get messy.</p>
+      </section>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/madiflannery/proj_management_test">overv.io tutorial</a> is maintained by <a href="https://github.com/madiflannery">madiflannery</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">overv.io tutorial maintained by <a href="https://github.com/madiflannery">madiflannery</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
+    </div>
 
-    </section>
+    
 
-  
   </body>
 </html>
