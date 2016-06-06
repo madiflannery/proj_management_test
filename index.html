@@ -13,7 +13,9 @@
     <section class="page-header">
       <h1 class="project-name">overv.io tutorial</h1>
       <h2 class="project-tagline">Tutorial using example repo used to illustrate git issues and overv.io. Written by Madi Flannery, 23/05/16.</h2>
-      
+      <a href="https://github.com/madiflannery/proj_management_test" class="btn">View on GitHub</a>
+      <a href="https://github.com/madiflannery/proj_management_test/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/madiflannery/proj_management_test/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
@@ -83,7 +85,7 @@ The other commonly used labels will be 'enhancement', which is used to say an is
 
 <p><img src="https://github.com/madiflannery/proj_management_test/blob/gh-pages/images/issue_view_2.png?raw=true" alt=""></p>
 
-<p>The main part shows the "history" of the issue - previous labels, who it's been assigned to, and most importantly, the description and comments associated with the issue.
+<p>The main part shows the "history" of the issue - previous labels, who it's been assigned to, and most importantly, the description and comments associated with the issue. 
 The right hand side shows the issue status, the labels currently associated with it, the milestone and who it's currently assigned to. To change any of these, click on the little icon above it. To edit the description, hover just next to the close button, and the edit icon will pop up for you to click on.
 To comment on the issue, just type in the box and click 'comment'. Markdown is supported, and you can also add images and documents.</p>
 
@@ -120,6 +122,28 @@ To comment on the issue, just type in the box and click 'comment'. Markdown is s
 <p>Providing a name is mandatory, description and due date are optional.</p>
 
 <h3>
+<a id="closing-issues-with-commit-messages" class="anchor" href="#closing-issues-with-commit-messages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Closing issues with commit messages</h3>
+
+<p>It's often good practice (and super convenient!) to close issues with commit messages. To do this, in your commit message, add any of the following words followed by the issue number:</p>
+
+<ul>
+<li>close</li>
+<li>closes</li>
+<li>closed</li>
+<li>fix</li>
+<li>fixes</li>
+<li>fixed</li>
+<li>resolve</li>
+<li>resolves</li>
+<li>resolved</li>
+</ul>
+
+<p>To get the issue number, you can find it under the name at the start of the second line (i.e. this is issue #2):
+<img src="https://raw.githubusercontent.com/madiflannery/proj_management_test/gh-pages/images/issue_num.png" alt=""></p>
+
+<p>As an example, if I wanted to close that issue, i'd add <code>closes #2</code> to the relevant commit message (note: 'closes' can be replaced with any of the above words).</p>
+
+<h3>
 <a id="hate-it" class="anchor" href="#hate-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hate it?</h3>
 
 <p>This is the best part about using git issues - all the data lives on git, so if you hate overv.io you can use git directly, or another git issues management tool of your choice (e.g. waffle.io) - just ensure it's set up identically to our setup so things don't get messy.</p>
@@ -132,6 +156,6 @@ To comment on the issue, just type in the box and click 'comment'. Markdown is s
 
     </section>
 
-
+  
   </body>
 </html>
